@@ -10,8 +10,7 @@ function signup(){
 	var id = $("#user_id").val();
 	var username = $("#username").val();
 	var email = $("#email").val();
-	var password = $("#password").val()
-	alert(id);
+	var password = $("#password").val();
 	var data =  {
 
 		username : username,
