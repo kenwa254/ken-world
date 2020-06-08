@@ -112,7 +112,9 @@ li a:hover {
 }
 </style>
 </head>
-<body>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+ --><body>
 
 
 <font color = "white"><br />
@@ -150,19 +152,19 @@ li a:hover {
 
 FILL IN DETAILS TO REGISTER<br><br>
 
-<form class="registration" method = "post">
+<form class="registration" method="post">
   <label for="id">USER ID:</label><br><br>
-  <input type="text" id="fname" name="userid" id="userid" required><br>
+  <input type="text" name="userid" id="user_id" required><br>
   <label for="name">USERNAME:</label><br><br>
-  <input type="text" id="fname" name="username" id="username" required><br>
+  <input type="text" name="username" id="username" required><br>
   <label for="email">EMAIL:</label><br><br>
-  <input type="text" id="lname" name="email" id="email" required> <br>
+  <input type="text" name="email" id="email" required> <br>
   <label for="pass">PASSWORD:</label><br><br>
-  <input type="text" id="fname" name="password" id="password" required><br>
+  <input type="text" name="password" id="password" required><br>
   <label for="pass1">CONFIRM PASSWORD:</label><br><br>
-  <input type="text" id="fname" name="password2" id="password2" required><br>
+  <input type="text" name="password2" id="password2" required><br>
 
-  <input type="submit" onclick="signup()" value="Register">
+  <input type="submit" value="Register">
   <p>PAGE 2=><a href="registerbus.html"><style="color:Tomato;">REGISTER VEHICLE</a></p>
 </form>
 
@@ -173,8 +175,7 @@ FILL IN DETAILS TO REGISTER<br><br>
 
 </font>
 </body>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
   <!-- <script src="jquery.js"></script> -->
   <script src="script2.js"></script>
 </html>
