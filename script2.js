@@ -23,7 +23,7 @@ function signup(){
 
 	$.ajax({
 
-		url: "http://localhost/my_project/process1.php",
+		url: "process1.php",
 		type: "POST",
 		data: JSON.stringify(data),
 		contentType: "application/json",
